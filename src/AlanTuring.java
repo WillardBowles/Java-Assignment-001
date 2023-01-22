@@ -1,9 +1,18 @@
+
+/**
+ *
+ * @author Trevor Hartman
+ * @author Willard Bowles
+ *
+ * @since Version 1.0
+ *
+ */
 public class AlanTuring {
-    /**
-     * Prints Alan Turing to the console
-     * @param args Command line arguments [The source file path, The target file path, ...]
-     **/
+    static String alanturing() {
+        return
+                "Alan Turing";
+    }
     public static void main(String[] args) {
-        // Write your program here
+        System.out.println(AlanTuring.alanturing());
     }
 }
